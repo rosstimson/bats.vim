@@ -1,5 +1,7 @@
 #!/usr/bin/env bats
 
+# Example Bats tests from the Bats README for testing out syntax highlighting.
+
 @test "addition using bc" {
   result="$(echo 2+2 | bc)"
   [ "$result" -eq 4 ]
